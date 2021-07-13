@@ -1,18 +1,19 @@
 {
-  "name": "yapi-cli",
-  "version": "1.5.0",
+  "name": "yapi-pro-cli",
+  "version": "1.5.2",
   "description": "",
   "main": "index.js",
   "bin": {
     "yapi": "./bin/yapi-cli",
-    "yapi-cli": "./bin/yapi-cli"
+    "yapi-cli": "./bin/yapi-cli",
+    "yapi-pro-cli": "./bin/yapi-cli"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:YMFE/yapi-cli.git"
+    "url": "git@github.com:yapi-pro/yapi-cli.git"
   },
   "author": "",
   "license": "ISC",
@@ -56,5 +57,8 @@
   },
   "engines": {
     "node": ">= 7.6.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
